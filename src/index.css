@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-base-100 text-base-content;
+  }
+}
+
+@layer components {
+  .btn-printku {
+    @apply btn bg-secondary hover:bg-secondary/80 text-white font-semibold border-secondary;
+  }
+  
+  .card-printku {
+    @apply card bg-base-100 shadow-xl border border-base-200;
+  }
+  
+  .hero-printku {
+    @apply hero min-h-screen bg-gradient-to-br from-primary/10 to-secondary/10;
+  }
+}
