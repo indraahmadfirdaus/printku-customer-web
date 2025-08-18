@@ -80,7 +80,7 @@ const LandingPage = () => {
                   Cetak Dokumen
                 </h3>
                 <p className="text-base-content/70 mb-4">
-                  PDF, Word, Excel, PowerPoint - semua format dokumen bisa!
+                  Format PDF
                 </p>
                 <div className="text-sm text-base-content/60">
                   Mulai dari <span className="font-semibold text-primary">
