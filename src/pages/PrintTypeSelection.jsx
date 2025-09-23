@@ -38,7 +38,7 @@ const PrintTypeSelection = () => {
       uploadRoute: '/upload/foto',
       features: [
         'Format: JPG, PNG',
-        'Ukuran: 2R, 3R, 4R, 5R, 6R',
+        'Ukuran: 4R',
         'Kualitas Photo Premium',
       ]
     }
